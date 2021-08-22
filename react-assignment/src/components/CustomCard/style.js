@@ -5,7 +5,8 @@ export default makeStyles((theme) => ({
 root: {
     width: 195,
     maxHeight: 250,
-    border: "4px solid #b0215e"
+    border: "4px solid #b0215e",
+    boxShadow: "5px 5px 15px rgba(#BA7E7E, .5)"
   },
   name: {
     height: "4em",
