@@ -10,7 +10,7 @@ function App() {
             <Route exact path="/">
                <HomePage />
             </Route>
-            <Route path="/cards/:id">
+            <Route path="/:username">
                 <DetailsCard />
             </Route>
         </Router>

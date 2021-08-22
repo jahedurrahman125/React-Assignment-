@@ -30,7 +30,7 @@ export default function CustomCard({user}) {
         </div>
         <CaptionText username={`@${user.username}`}/>
         <CustomLink website={user.website} />
-        <CustomButton buttonText="More Details" userId={user.id}/>
+        <CustomButton buttonText="More Details" userId={user.username}/>
       </CardContent>
     </Card>
   );

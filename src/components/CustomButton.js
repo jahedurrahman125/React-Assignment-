@@ -5,7 +5,7 @@ export default function CustomButton(props) {
   const { buttonText, userId } = props;
   
   return (
-    <Button href={`/cards/${userId}`} variant="contained" color="primary">
+    <Button href={`/${userId}`} variant="contained" color="primary">
       {buttonText}
     </Button>
   );
